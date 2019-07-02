@@ -43,7 +43,7 @@ class HardwareIDreader(object):
                 IP=(device[1])[7:]
                 #print(IP)
                 try:
-                    session = Session(hostname=IP, community='BANMSRO', version=2)
+                    session = Session(hostname=IP, community='private', version=2)
                     SN = session.get('.1.3.6.1.4.1.6827.10.216.5.3.0')
                     print(site+","+device[0]+","+device[1]+","+SN.value)
                 except Exception as e:
