@@ -3,8 +3,8 @@ SW version batch get for all Evertz Sat Receivers
 
 
 
-1. This project can do the data cleansing on the 2x parallels dumped raw data file 
-and extract the site and IP information of all the Rohde Schwarz DTV transmitters from the dumped raw data file.
+1. This project firstly does the data cleansing on the 2x parallels dumped raw data file 
+and extracts the site and IP information of all the Evertz Satellite receivers from the dumped raw data file.
 
 2. The HardwareIDreader.py will re-format the extracted data and query the Firmware Version of each Evertz Sat Receiver via SNMP.
 
