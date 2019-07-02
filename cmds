@@ -1,0 +1,2 @@
+grep -e '<Name.*[0-9][0-9][0-9][0-9].*</Name><Type dt:dt="ui4">1</Type>' -e 'Evertz' /opt/serialNumber/2x-gorehill.dat > Evertz.txt
+
