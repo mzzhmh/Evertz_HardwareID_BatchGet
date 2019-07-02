@@ -11,7 +11,7 @@ and extracts the site and IP information of all the Evertz Satellite receivers f
 3. The output will be saved in a .csv file.
 
 4. Jenkinsfile is used for single-click deployment and it is used for running the task. 
-It can be used by un-linux background staff to do the batch-get task.
+It can be used by non-linux background staff to do the batch-get task.
 
 
 This repo is used for code maintainence and the customer raw data is not uploaded in here.
